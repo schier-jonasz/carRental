@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZicherCars</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/normalize.css/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.scss" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="navigation">
+        <img src="images/logo.png" class="navigation__link navigation__image" />
+        <a class="navigation__link" href="index.html">HOME</a>
+        <a class="navigation__link" href="renting.html">WYPOŻYCZ</a>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="main-rental">
+        <h2 class="main-rental__heading">
+          Oferujemy najlepszą jakość samochodów
+        </h2>
+        <p class="main-rental__paragraph">
+          Zarezerwuj najlepszy z nich już dziś!
+        </p>
+      </header>
+      <section class="car-segment" id="segment-a">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU A</h3>
+        <p class="car-segment__description">
+          Do autosegmentu A zaliczane są najmniejsze samochody, służące głównie
+          do jazdy w mieście. Mają one niewielki bagażnik i bardzo ograniczone
+          miejsce dla pasażerów z tyłu. Długość samochodów w tej klasie wynosi
+          najczęściej około 3,5 m, a moc silnika nie przekracza 70 KM. Zazwyczaj
+          mają one jedną lub dwie pary drzwi jednocześnie mając dwa rzędy
+          siedzeń.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+            Poniższe auta stanowią tylko przykład, kliknij
+            <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+            siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img
+              src="images/segment/A/opel_adam.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Opel Adam</h4>
+            <p class="choose-car__description">Rok produkcji: 2018</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              70zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_a_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/A/toyota_aygo.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Peugot 108</h4>
+            <p class="choose-car__description">Rok produkcji: 2018</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              70zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_a_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/A/toyota_IQ.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Renault twingo</h4>
+            <p class="choose-car__description">Rok produkcji: 2014</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              70zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_a_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="car-segment" id="segment-b">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU B</h3>
+        <p class="car-segment__description">
+          Pojazdy tej klasy są głównie przeznaczone do jazdy po mieście, ale
+          umożliwiają też w miarę wygodną jazdę dla czterech osób w trasie.
+          Podobnie jak samochody z segmentu A mają natomiast zwykle niewielki
+          bagażnik, umożliwiają jednak przewożenie większych ilości bagażu po
+          złożeniu tylnych siedzeń. Rozwiązaniem tego problemu są wersje
+          nadwoziowe sedan i kombi.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+          Poniższe auta stanowią tylko przykład, kliknij
+          <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+          siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img
+              src="images/segment/B/skoda_fabia.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Skoda Fabia</h4>
+            <p class="choose-car__description">Rok produkcji: 2019</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              90zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_b_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/B/subaru justy.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Subaru Justy</h4>
+            <p class="choose-car__description">Rok produkcji: 2016</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              90zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_b_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/B/toyota_yaris.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Toyota Yaris</h4>
+            <p class="choose-car__description">Rok produkcji: 2018</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              90zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_b_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="car-segment" id="segment-c">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU C</h3>
+        <p class="car-segment__description">
+          Samochody te są przeznaczone zarówno do jazdy po mieście, jak i w
+          trasie stanowiąc rodzaj kompromisu pomiędzy samochodami miejskimi i
+          klasy średniej. W ramach tego segmentu dostępne są zarówno zwrotne i
+          wygodne do stosowania w mieście hatchbacki, jak i sedany oraz kombi
+          pełniące rolę limuzyny za umiarkowane pieniądze.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+          Poniższe auta stanowią tylko przykład, kliknij
+          <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+          siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img src="images/segment/C/bmw1.png" class="choose-car__image" />
+            <h4 class="choose-car__name">BMW Serii 1</h4>
+            <p class="choose-car__description">Rok produkcji: 2019</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              120zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_c_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/C/seat_leon.png"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Seat Leon</h4>
+            <p class="choose-car__description">Rok produkcji: 2018</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              120zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_c_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/C/toyota_corolla.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Toyota Corolla</h4>
+            <p class="choose-car__description">Rok produkcji: 2020</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              120zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_c_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="car-segment" id="segment-D">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU D</h3>
+        <p class="car-segment__description">
+          Klasa średnia samochodów osobowych, względnie duże i wygodne samochody
+          rodzinne jak i sportowe. Do klasy tej zaliczane są klasyczne samochody
+          osobowe charakteryzujące się wymiarami większymi od kompaktowych,
+          zapewniającymi w miarę wygodną jazdę dla pięciu osób na dłuższych
+          trasach. Wyposażone zazwyczaj w obszerny bagażnik, jednak nieco
+          mniejsze i skromniej wyposażone od samochodów segmentu E.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+          Poniższe auta stanowią tylko przykład, kliknij
+          <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+          siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img
+              src="images/segment/D/opel-insignia.jpeg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Opel Insignia</h4>
+            <p class="choose-car__description">Rok produkcji: 2017</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_d_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/D/skoda_superb.png"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Skoda Superb</h4>
+            <p class="choose-car__description">Rok produkcji: 2019</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_d_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/D/volkswagen_passat.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Volkswagen Passat</h4>
+            <p class="choose-car__description">Rok produkcji: 2019</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_d_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="car-segment" id="segment-p">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU P</h3>
+        <p class="car-segment__description">
+          Najwyższa, luksusowa klasa samochodów osobowych. Są to najczęściej
+          najdroższe limuzyny oferowane przez producentów, najlepiej wyposażone
+          i napędzane najmocniejszymi silnikami. Również w klasie tej znajdują
+          się samochody sportowe, w której głównym celem jest możliwie najlepsze
+          prowadzenie. Przeważnie są to małe samochody, z niskim środkiem
+          ciężkości, utwardzonym zawieszeniem, precyzyjnym układem kierowniczym
+          i dobrym stosunkiem mocy do masy. Przeważnie są to samochody
+          dwuosobowe, lub 2+2. W klasycznym rozumieniu są to głównie auta typu
+          Kabriolet i Coupe.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+          Poniższe auta stanowią tylko przykład, kliknij
+          <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+          siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img src="images/segment/P/audia6.png" class="choose-car__image" />
+            <h4 class="choose-car__name">Audi A6 B8</h4>
+            <p class="choose-car__description">Rok produkcji: 2014</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              220zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_p_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img src="images/segment/P/bmwi8_P.jpg" class="choose-car__image" />
+            <h4 class="choose-car__name">BMW i8</h4>
+            <p class="choose-car__description">Rok produkcji: 2018</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              220zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_p_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/P/lexus_rc.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Lexus RC</h4>
+            <p class="choose-car__description">Rok produkcji: 2019</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              220zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_p_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="car-segment" id="segment-van">
+        <h3 class="car-segment__heading">SAMOCHODY SEGMENTU VAN</h3>
+        <p class="car-segment__description">
+          Klasa obszernych samochodów mogących zabrać przynajmniej 5 osób wraz z
+          dużym bagażem. W tej klasie również istnieje swego rodzaju podział,
+          gdyż vany są zarówno dużymi, oddzielnymi modelami jak i mniejszymi
+          samochodami o wielu elementach wspólnych z samochodami segmentów D,C,
+          a nawet niższych.
+        </p>
+        <p class="car-segment__description car-segment__description--special">
+          Poniższe auta stanowią tylko przykład, kliknij
+          <strong class="reservation">zarezerwuj</strong> i wybierz auto dla
+          siebie spośród dostępnych.</p>
+        <div class="car-segment__grid">
+          <article class="choose-car">
+            <img
+              src="images/segment/van/opel_vivaro.JPG"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Opel Vivaro</h4>
+            <p class="choose-car__description">Rok produkcji: 2014</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_van_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/van/PEUGEOT-BOXER.jpg"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Peugot BOXER</h4>
+            <p class="choose-car__description">Rok produkcji: 2010</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize--day">dzień</span>
+            </p>
+            <a href="php/segment_van_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+
+          <article class="choose-car">
+            <img
+              src="images/segment/van/volkswagen krafter.png"
+              class="choose-car__image"
+            />
+            <h4 class="choose-car__name">Volkswagen Krafter</h4>
+            <p class="choose-car__description">Rok produkcji: 2014</p>
+            <p class="choose-car__prize">
+              <img
+                src="images/icons/money.png"
+                class="choose-car__prize--image"
+              />
+              150zł/<span class="choose-car__prize choose-car__prize--day"
+                >dzień</span
+              >
+            </p>
+            <a href="php/segment_van_0.php" class="choose-car__link"><button class="choose-car__button">Zarezerwuj</button></a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__paragraph">&copy; ZicherCars 2020</p>
+      <a href="https://facebook.com" class="footer__icon"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://twitter.com" class="footer__icon"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="https://instagram.com" class="footer__icon"
+        ><i class="fa fa-instagram"></i
+      ></a>
+    </footer>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  </body>
+</html>

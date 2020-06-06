@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZicherCars</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/normalize.css/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.scss" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <nav class="navigation">
+        <img src="images/logo.png" class="navigation__link navigation__image" />
+        <a class="navigation__link" href="http://localhost/rezerwacje.php">REZERWACJE</a>
+        <a class="navigation__link" href="addCar.html">DODAJ SAMOCHÓD</a>
+        <a class="navigation__link" href="index.html">HOME</a>
+        <a class="navigation__link" href="renting.html">WYPOŻYCZ</a>
+      </nav>
+    </header>
+    <main class="main-form">
+      <!-- formularz -->
+      <form action="autocon.php" method="post" class="form">
+        <label class="form__label for="id_segment">id_segment</label>
+        <input class="form__input" type="text" id="id_segment" name="id_segment" required />
+        <label class="form__label for="marka">marka</label>
+        <input class="form__input" type="text" id="marka" name="marka" required /> 
+
+        <label class="form__label for="model">model</label>
+        <input class="form__input" type="text" id="model" name="model" required />
+        <label class="form__label for="id_segment">lokalizacja</label>
+        <input class="form__input" type="text" id="lokalizacja" name="lokalizacja" required />
+        <label class="form__label for="data_sprzedazy">data_sprzedazy</label>
+        <input class="form__input" type="text" id="data_sprzedazy" name="data_sprzedazy" />
+
+        <input class="form__button" type="submit" id="button" value="DODAJ"/>
+      </form>
+    </main>
+  </body>
+</html>

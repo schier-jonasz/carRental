@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZicherCars</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/normalize.css/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.scss" />
+  </head>
+<body class="body">
+    <header class="header">
+        <nav class="navigation">
+          <img src="images/logo.png" class="navigation__link navigation__image" />
+          <a class="navigation__link" href="index.html">HOME</a>
+          <a class="navigation__link" href="renting.html">WYPOŻYCZ</a>
+        </nav>
+      </header>
+      <main class="main-form">
+        <form name="login" class="form">
+            <label class="form__label" for="name">Nazwa użytkownika</label>
+            <input class="form__input" id="name" type="text" placeholder="Wpisz nazwe użytkownika" required>
+
+            <label class="form__label" for="password">Hasło</label>
+            <input class="form__input" id="password" type="password" placeholder="Wpisz hasło" required>
+
+            <button class="form__button" type="submit" onclick="check(this.form)" value="Login" >Zaloguj</button>
+        </form>
+      </main>
+      <footer class="footer">
+        <p class="footer__paragraph">&copy; ZicherCars 2020</p>
+        <a href="https://facebook.com" class="footer__icon"
+          ><i class="fa fa-facebook"></i
+        ></a>
+        <a href="https://twitter.com" class="footer__icon"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://instagram.com" class="footer__icon"
+          ><i class="fa fa-instagram"></i
+        ></a>
+      </footer>
+      <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+      <script src="main.js"></script>
+</body>
+</html>
