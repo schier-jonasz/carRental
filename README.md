@@ -1,2 +1,2 @@
-#CAR RENTAL WEBSITE
+# CAR RENTAL WEBSITE
 This is a page that was made in a group of four people to pass the subject. The website was to present a simple online car reservation. I was responsible for the frontend, for the backend: Łukasz Stasiak, Adam Palęga and Rafał Rychwalski. I know that the website is not aesthetic but it was supposed to work as sonn as possible.
